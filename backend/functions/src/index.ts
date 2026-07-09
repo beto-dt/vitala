@@ -8,7 +8,7 @@ import { RtcTokenBuilder, RtcRole } from 'agora-token';
 if (!getApps().length) initializeApp();
 const db = getFirestore();
 
-const AGORA_APP_ID = 'TU_APP_ID_DE_AGORA';
+const AGORA_APP_ID = '9108e8768d214066a4a07be6aac382a6';
 const AGORA_CERT = defineSecret('AGORA_CERT');
 const TOKEN_TTL_SECONDS = 3600; // 1h: sobra para una consulta demo
 
