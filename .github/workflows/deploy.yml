@@ -14,7 +14,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
-          flutter-version: "3.38.0"   # ← pon AQUÍ tu versión exacta del paso 1
+          flutter-version: "3.44.6"   # ← pon AQUÍ tu versión exacta del paso 1
           cache: true
 
       - name: Build web
